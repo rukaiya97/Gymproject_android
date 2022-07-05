@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUp2">
+
+    <TextView
+        android:id="@+id/lgn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="#ead579"
+        android:hint="SIGN UP HERE"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="23sp" />
+
+
+    <EditText
+        android:id="@+id/usname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lgn"
+        android:layout_marginLeft="23sp"
+        android:layout_marginTop="34dp"
+        android:hint="Username"
+        android:textSize="23sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/pwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/usname"
+        android:layout_marginLeft="23sp"
+        android:layout_marginTop="34dp"
+        android:hint="Password"
+        android:textSize="23sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/pwd1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pwd"
+        android:layout_marginLeft="23sp"
+        android:layout_marginTop="34dp"
+        android:hint="Confirm password"
+        android:textSize="23sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pwd1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:background="#b0b5a4"
+        android:hint="SignUp"
+        android:textColorHint="@color/black"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

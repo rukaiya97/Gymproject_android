@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name"> GYM MEMBERSHIP FORM</string>
+    <string name="username">username</string>
+    <string-array name="GENDERLIST">
+        <item>MALE</item>
+        <item>FEMALE</item>
+    </string-array>
+
+    <string-array name="TIMELIST">
+        <item>YES</item>
+        <item>NO</item>
+
+    </string-array>
+</resources>
